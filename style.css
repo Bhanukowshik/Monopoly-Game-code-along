@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(247, 187, 187);
+}
+
+.container {
+    width: 485px;
+    overflow: hidden;
+    margin: 50px auto 0 auto;
+}
+
+.container .box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.container span {
+    width: 82%;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    background-color: burlywood;
+}
+
+#clkme {
+    color: brown;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+}
+
+#player1 {
+    position: absolute;
+    margin-top: -28px;
+    color: red;
+}
+
+#img1,
+#img2 {
+    width: 35px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 10px;
+    padding: 2em;
+}
+
+.grid-container>div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.dice {
+    margin-left: 300px;
+}
+
+.maingrid {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 10px;
+}
+
+#btn1,
+#btn2 {
+    margin: 5px 3px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    background-color: orangered;
+    border: 3px solid rgb(8, 219, 247);
+    color: #333;
+}
+
+#btn1:hover,
+#btn2:hover {
+    background-color: rgb(235, 8, 76);
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
